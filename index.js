@@ -36,5 +36,8 @@ function play(question,answer){
    var thisquestion=questions[i]
    play(thisquestion.question,thisquestion.answer)
  }
+ if(score===questions.length){
+     console.log("congratulations!")
+ }
 
  console.log("your score is " + score)
